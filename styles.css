@@ -27,7 +27,12 @@ body {
     table {
       width: 100%;
       border-collapse: collapse;
+	
     }
+table, id{
+	border: 1px solid #ccc;
+	padding:10px
+}
 
     td {
       vertical-align: top;
