@@ -1,33 +1,37 @@
    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-        }
-        .container {
-            width: 1100px;
-            margin: 0 auto;
-        }
-        .imageContainer img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: center;
-        }
-        td {
-            border: 1px solid #ccc;
-            padding: 10px;
-            vertical-align: top;
-        }
-        .col1, .col3 {
-            width: 200px;
-        }
-        .col2 {
-            width: 600px;
-            text-align: left;
-        }
+  body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 1100px;
+    margin: auto;
+  }
+  .imageContainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid #ccc;
+    vertical-align: top;
+    padding: 10px;
+  }
+  .col1, .col3 {
+    width: 200px;
+    text-align: center;
+  }
+  .col2 {
+    width: 600px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
     </style>
