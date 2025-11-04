@@ -8,62 +8,91 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-	</script>
-	<div class="container">
+	
+  <div class="page">
+    <span class="preview-badge">Preview :</span>
+
+    <!-- ✅ Required imageContainer with an image -->
     <div class="imageContainer">
-      <img src="https://www.citytour.ae/bigImage/20230919-2009301576487.jpeg" alt="Architecture Image">
-      <!-- Replace the src with the path to your uploaded file or use a real hosted image -->
+      <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?q=80&w=1200&auto=format&fit=crop"
+           alt="Modern architectural exterior with hand sketch overlay"/>
     </div>
 
-    <table border="1">
-      <tr>
-        <td class="col1">
-          <img src="https://www.citytour.ae/bigImage/20230919-2009301576487.jpeg" alt="Left Image 1">
-        </td>
-        <td class="col2">
-          <div class="section">
-            <div class="heading">Unit #5 - Floor Plans</div>
-            <ul>
-              <li>A. Kitchen</li>
-              <li>B. Bathroom</li>
-              <li>C. Using "Slabs"</li>
-              <li>D. Georgian Home</li>
-              <li>E. Sketching Assignment #5</li>
-            </ul>
-          </div>
-        </td>
-        <td class="col3">
-          <img src="https://www.citytour.ae/bigImage/20230919-2009301576487.jpeg" alt="Right Image 1">
-        </td>
-      </tr>
-      <tr>
-        <td class="col1">
-          <div class="box-title"><img src="https://www.citytour.ae/bigImage/20230919-2009301576487.jpeg">HousePlans.com</div>
-          <div class="box-text">
-            The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas.
-          </div>
-          <a class="link" href="#">learn more</a>
-        </td>
-        <td class="col2">
-          <div class="heading">Objective</div>
-          <div class="box-text">
-            Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence.
-            Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles.
-            Plan the service area of a home by applying good design principles. Design a functional kitchen to meet a family's needs. Select kitchen appliances that are appropriate for a design. Plan an efficient clothes care center.
-            Describe appropriate dimensions for garage space. Identify the rooms and areas that comprise the living area. Apply design principles to planning a living room. Integrate the furniture in a living room plan. Analyze a dining room using good design principles. Design a functional entry and foyer.
-          </div>
-        </td>
-        <td class="col3">
-          <div class="box-title"><img src="https://www.citytour.ae/bigImage/20230919-2009301576487.jpeg">Green Floor</div>
-          <div class="box-text">
-            FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.
-          </div>
-          <a class="link" href="#">learn more</a>
-        </td>
-      </tr>
+    <!-- ✅ Table with 3 columns (200 / 600 / 200) and two rows -->
+    <!-- Widths applied via colgroup AND width attributes on cells (as requested) -->
+    <table class="arch" width="1100">
+      <colgroup>
+        <col width="200">
+        <col width="600">
+        <col width="200">
+      </colgroup>
+
+      <tbody>
+        <!-- Row 1 -->
+        <tr>
+          <td width="200">
+            <img class="sidebar-img"
+                 src="https://images.unsplash.com/photo-1494173853739-c21f58b16055?q=80&w=600&auto=format&fit=crop"
+                 alt="Abstract facade detail"/>
+          </td>
+
+          <td width="600">
+            <div class="panel">
+              <h2>Unit #5 – Floor Plans</h2>
+              <p class="muted">A. Kitchen &nbsp;&nbsp; B. Bathroom &nbsp;&nbsp; C. Using “Slabs” &nbsp;&nbsp; D. Georgian Home &nbsp;&nbsp; E. Sketching Assignment #5</p>
+
+              <div class="note">
+                <strong>Objective</strong><br>
+                Discuss factors guiding bedroom design, plan closet sizes, and lay out furniture for efficient circulation.
+                Implement sound bathroom principles and service zones. Design a functional kitchen that meets a family’s
+                needs, including appropriate appliance selection and work-triangle proportions. Identify room relationships
+                within the living area and evaluate a dining layout using good design principles.
+              </div>
+            </div>
+          </td>
+
+          <td width="200">
+            <img class="sidebar-img"
+                 src="https://images.unsplash.com/photo-1482192505345-5655af888cc4?q=80&w=600&auto=format&fit=crop"
+                 alt="Spiral detail black and white"/>
+          </td>
+        </tr>
+
+        <!-- Row 2 -->
+        <tr>
+          <td width="200">
+            <div class="panel">
+              <h3>HousePlans.com</h3>
+              <p class="muted">A large catalog of quality, affordable ready-made house plans—great for space-planning ideas.</p>
+              <a class="btn" href="#" onclick="return false;">learn more</a>
+            </div>
+          </td>
+
+          <td width="600">
+            <div class="panel">
+              <h3>Design Focus</h3>
+              <p>
+                Integrate furniture within living rooms, analyze dining rooms using good design, and compose a welcoming,
+                functional entry and foyer. Apply daylighting concepts and material palettes to achieve human-centered,
+                sustainable interiors aligned with contemporary architectural practice.
+              </p>
+            </div>
+          </td>
+
+          <td width="200">
+            <div class="panel">
+              <h3>Green Floor</h3>
+              <p class="muted">
+                FreeGreen.com provides both sponsored and non-sponsored plans. Their goal is to offer free solutions to
+                common green architectural needs.
+              </p>
+              <a class="btn" href="#" onclick="return false;">learn more</a>
+            </div>
+          </td>
+        </tr>
+      </tbody>
     </table>
+    <!-- ✅ Each row has three columns, images on the sides, text in the middle -->
   </div>
 </body>
 
